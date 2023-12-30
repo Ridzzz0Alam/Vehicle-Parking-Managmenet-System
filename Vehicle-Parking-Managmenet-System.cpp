@@ -20,6 +20,23 @@ int main() {
 		cout << "PRESS 5: To Delete Record" << endl;
 		cout << "Enter your choice: ";
 		cin >> user_input;
+		if (user_input == 1) {
+
+			count += 1;
+			amount += 100;
+		}
+		else if(user_input == 2){
+			amount += 200;
+			count += 1;
+		}
+		else if (user_input == 3){
+			amount += 300;
+			count += 1;
+		}
+		else if(user_input == 4){
+			cout << "TOTAL AMOUNT IS: " << " " << amount << endl;
+			cout << "TOTAL NUMBER OF VEHICLES PARKED: " << " " << count << endl;
+		}
 		
 	}
 }
