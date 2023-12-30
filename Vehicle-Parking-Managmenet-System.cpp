@@ -37,6 +37,15 @@ int main() {
 			cout << "TOTAL AMOUNT IS: " << " " << amount << endl;
 			cout << "TOTAL NUMBER OF VEHICLES PARKED: " << " " << count << endl;
 		}
+		else if (user_input == 5) {
+			amount = 0;
+			count = 0;
+		}
+		else {
+			cout << "ENTER THE VALID NUMBER WHICH CAN BE MAPPED WITH THE ABOVE OPERATIONS!" << endl;
+		}
 		
 	}
+
+	return 0;
 }
